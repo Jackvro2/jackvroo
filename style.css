@@ -1,0 +1,64 @@
+/* reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* css starts */
+
+.container{
+  max-width: 1000px;
+  height: 100vh;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.2fr;
+  grid-template-rows: 1fr 4fr 1.2fr 1.2fr;
+}
+
+.logo{
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: #E6F0EF;
+  }
+ 
+.main{
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: #ffffff;
+}
+
+.quotes{
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: #E6F0EF;
+  }
+ 
+.btn1{
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  background-color: #0F792D;
+  }
+ 
+.btn2{
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background-color: #5FB144;
+}
+.header{
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background-color: #5FB144;
+}
